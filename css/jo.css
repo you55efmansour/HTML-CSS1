@@ -575,22 +575,23 @@ header .nav-item:hover .mega-menu {
   bottom: 0;
 }
 .team-members .box::before{
-  right: -50%;
-  bottom: 0;
-}
-.team-members .box:hover::before {
   right: 0;
   width: calc(100% - 60px);
   z-index: -1;
   background-color: #77777741;
 }
+.team-members .box:hover::before {
+  right: -100%;
+  bottom: 0;
+}
 .team-members img {
   width: calc(100% - 60px);
   border-radius: 10px;
   transition: var(--main-transition);
+  filter: grayscale(100%);
 }
 .team-members .box:hover img {
-  filter: grayscale(100%);
+  filter:none;
 }
 .team-members .text {
   padding-left: 80px;
@@ -751,7 +752,7 @@ header .nav-item:hover .mega-menu {
 
 /* last events start  */
 .last-events .dots {
-  background-image: url(/imgs/dots.png);
+  background-image: url(/HTML-CSS1/imgs/dots.png);
   width: 204px;
   height: 186px;
 }
@@ -769,7 +770,7 @@ header .nav-item:hover .mega-menu {
   background-color: var(--section-background);
 }
 .pricing .dots {
-  background-image: url(/imgs/dots.png);
+  background-image: url(/HTML-CSS1/imgs/dots.png);
   width: 204px;
   height: 186px;
 }
@@ -836,7 +837,7 @@ color: var(--main-color-alt) !important;
 /* top video end  */
 /* stats start  */
 .stats {
-  background-image: url(/imgs/stats.jpg);
+  background-image: url(/HTML-CSS1/imgs/stats.jpg);
   background-size: cover;
   min-height: 300px;
 }
@@ -883,7 +884,7 @@ color: var(--main-color-alt) !important;
 /* stats end */
 /* discount start */
 .discount .image {
-  background-image: url(/imgs/discount-background1.jpg);
+  background-image: url(/HTML-CSS1/imgs/discount-background1.jpg);
   background-size: cover;
 }
 .discount .image::before {

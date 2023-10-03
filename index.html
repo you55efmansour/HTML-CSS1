@@ -41,30 +41,30 @@
             class="nav-bar d-flex align-items-center justify-content-end col-md-11 col-sm-12"
           >
             <ul class="nav">
-              <li class="nav-item">
+              <li class="nav-item col-6 col-md-3">
                 <a
                   class="nav-link d-flex justify-content-center align-items-center position-relative overflow-hidden"
                   href="#Articles"
                   >Articles</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="nav-item col-6 col-md-3">
                 <a
                   class="nav-link d-flex justify-content-center align-items-center position-relative overflow-hidden"
                   href="#Gallery"
                   >Gallery</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="nav-item col-6 col-md-3">
                 <a
                   class="nav-link d-flex justify-content-center align-items-center position-relative overflow-hidden"
                   href="#Features"
                   >Features</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="nav-item col-6 col-md-3">
                 <a
-                  class="nav-link d-flex justify-content-center align-items-center position-relative overflow-hidden"
+                  class="nav-link text-center d-flex justify-content-center align-items-center position-relative overflow-hidden"
                   href="#Other Links"
                   >Other Links</a
                 >
@@ -342,7 +342,7 @@
         let btn = document.body.querySelector(".my-btn")
         let myScroll =() =>{
           var y = window.scrollY;
-          if (y>=800) {
+          if (y>=600) {
             btn.classList.remove("d-none")
           }else{
             btn.classList.add("d-none")
@@ -809,7 +809,7 @@
       <!-- container start  -->
       <div class="container d-flex">
         <div class="skills-img d-none d-md-block">
-          <img class="img-fluid" src="/imgs/skills.png" alt="">
+          <img class="img-fluid" src="/HTML-CSS1/imgs/skills.png" alt="">
         </div>
         <ul class="fw-bold fs-5 text-black pt-4 flex-grow-1">
           <li class="frist mb-3 position-relative">
@@ -842,14 +842,14 @@
       <!-- start container -->
       <div class="container align-items-center d-flex flex-column flex-lg-row">
         <div class="left-image w-75 w-lg-100 mb-5 flex-grow-1">
-          <img class="img-fluid" src="/imgs/work-steps.png" alt="">
+          <img class="img-fluid" src="/HTML-CSS1/imgs/work-steps.png" alt="">
         </div>
         <!-- start steps  -->
         <div class="steps w-100 d-flex flex-column">
           <!-- frist box  -->
           <div class="step-box position-relative p-3 rounded-2 d-flex align-items-center mb-3">
             <div class="image w-50 pe-4">
-              <img class="img-fluid" src="/imgs/work-steps-1.png" alt="">
+              <img class="img-fluid" src="/HTML-CSS1/imgs/work-steps-1.png" alt="">
             </div>
             <div class="text">
               <h2 class="fw-bold text-black">Business Analysis</h2>
@@ -859,7 +859,7 @@
           <!-- second box  -->
           <div class="step-box position-relative p-3 rounded-2 d-flex align-items-center mb-3">
             <div class="image w-50 pe-4">
-              <img class="img-fluid" src="/imgs/work-steps-2.png" alt="">
+              <img class="img-fluid" src="/HTML-CSS1/imgs/work-steps-2.png" alt="">
             </div>
             <div class="text">
               <h2 class="fw-bold text-black">Architecture</h2>
@@ -869,7 +869,7 @@
           <!-- third box  -->
           <div class="step-box position-relative p-3 rounded-2 d-flex align-items-center mb-3">
             <div class="image w-50 pe-4">
-              <img class="img-fluid" src="/imgs/work-steps-3.png" alt="">
+              <img class="img-fluid" src="/HTML-CSS1/imgs/work-steps-3.png" alt="">
             </div>
             <div class="text">
               <h2 class="fw-bold text-black">Developement</h2>
@@ -894,7 +894,7 @@
       <!-- container start -->
       <div class="container d-flex align-items-center justify-content-center py-5">
         <div class="image d-none d-md-block w-50">
-          <img class="img-fluid" src="/imgs/events (1).png" alt="">
+          <img class="img-fluid" src="/HTML-CSS1/imgs/events (1).png" alt="">
         </div>
         <!-- right side start  -->
         <div class="right-side w-75 d-flex flex-column justify-content-center align-items-center">
@@ -945,8 +945,8 @@
       </div>
       <!-- container end -->
       <div class="subscribe mb-4 p-3 rounded-5 w-auto  d-flex justify-content-center bg-secondary-subtle">
-        <form action>
-          <input class="ps-4 p-3 rounded-5 border-0" type="email"  placeholder="Enter Your Email" name="" id="">
+        <form class="d-flex">
+          <input class="ps-4 p-3 rounded-5 border-0 me-2" type="email"  placeholder="Enter Your Email" name="" id="">
           <input class="p-3 rounded-5 border-0 bg-primary text-light fw-semibold" type="submit" value="submit">
         </form>
       </div>
@@ -967,7 +967,7 @@
             <div class="box-head d-flex flex-column justify-content-center align-items-center">
               <h2 class="py-5 fw-bold">Basic</h2>
               <div class="image d-flex mb-2 justify-content-center">
-                <img class="img-fluid w-50" src="/imgs/hosting-basic.png" alt="">
+                <img class="img-fluid w-50" src="/HTML-CSS1/imgs/hosting-basic.png" alt="">
               </div>
               <p class="fw-bold fs-1">$15</p>
               <p class="text-black-50">Per month</p>
@@ -1008,7 +1008,7 @@
             <div class="box-head d-flex flex-column justify-content-center align-items-center">
               <h2 class="py-5 fw-bold">Advanced</h2>
               <div class="image d-flex mb-2 justify-content-center">
-                <img class="img-fluid w-50" src="/imgs/hosting-advanced.png" alt="">
+                <img class="img-fluid w-50" src="/HTML-CSS1/imgs/hosting-advanced.png" alt="">
               </div>
               <p class="fw-bold fs-1">$25</p>
               <p class="text-black-50">Per month</p>
@@ -1048,7 +1048,7 @@
             <div class="box-head d-flex flex-column justify-content-center align-items-center">
               <h2 class="py-5 fw-bold">Professional</h2>
               <div class="image d-flex mb-2 justify-content-center">
-                <img class="img-fluid w-50" src="/imgs/hosting-professional.png" alt="">
+                <img class="img-fluid w-50" src="/HTML-CSS1/imgs/hosting-professional.png" alt="">
               </div>
               <p class="fw-bold fs-1">$45</p>
               <p class="text-black-50">Per month</p>
@@ -1155,7 +1155,7 @@
         <!-- start right side  -->
         <div class="right-side bg-secondary-subtle d-flex flex-column justify-content-between p-2">
           <div class="image">
-            <img class="img-fluid" src="/imgs/video-preview.jpg" alt="">
+            <img class="img-fluid" src="/HTML-CSS1/imgs/video-preview.jpg" alt="">
           </div>
           <div class="bg-light py-3 px-2">
             Everything About The Virtual Hosts
@@ -1214,20 +1214,20 @@
           <h2 class="fs-1 mt-5 pt-5 pb-3 fw-bold">We Have A Discount</h2>
           <p class="w-75 my-4 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A obcaecati molestiae sit, autem quos incidunt itaque quo nostrum, earum repudiandae impedit, dolor dicta? Voluptate sit tempora rem in, cumque dolorum.</p>
           <div class="img w-50">
-            <img class="img-fluid" src="/imgs/discount.png" alt="">
+            <img class="img-fluid" src="/HTML-CSS1/imgs/discount.png" alt="">
           </div>
         </div>
       </div>
       <!-- left side end -->
       <!-- right side start -->
-      <div class="form d-flex pt-5 flex-column justify-content-center align-items-center">
+      <div class="form container d-flex pt-5 flex-column justify-content-center align-items-center">
         <h2 class="py-5 fw-bold  fs-1">Request A Discount</h2>
-        <form class="d-flex w-50 flex-column" action="">
+        <form class="d-flex w-100 flex-column" action="">
           <input class="input mb-4 border-0 border-bottom border-2 bg-light p-3" type="text" name="name" placeholder="Your Name">
           <input class="input mb-4 border-0 border-bottom border-2 bg-light p-3" type="email" name="email" placeholder="Your Email">
           <input class="input mb-4 border-0 border-bottom border-2 bg-light p-3" type="text" name="number" placeholder="Your Number">
           <textarea class="input mb-4 border-0 border-bottom border-2 bg-light p-3" placeholder="Tell Us About Your Needs" name="message" ></textarea>
-          <input class="bg-primary text-center text-light mb-3 p-2 fw-semibold border-0 fs-3" type="submit" value="send">
+          <input class="bg-primary btn text-center text-light mb-3 p-2 fw-semibold border-0 fs-3" type="submit" value="send">
         </form>
       </div>
       <!-- right side end -->
@@ -1307,12 +1307,12 @@
         </div>
         <!-- 4 -->
         <div class="imgs-box pt-3 h-25 d-flex flex-wrap">
-          <div class="w-25 mb-2 me-2"><img class="img-fluid border border-3 border-white" src="/imgs/gallery-01.png" alt=""></div>
-          <div class="w-25 mb-2 me-2"><img class="img-fluid border border-3 border-white" src="/imgs/gallery-02.png" alt=""></div>
-          <div class="w-25 mb-2 me-2"><img class="img-fluid border border-3 border-white" src="/imgs/gallery-03.jpg" alt=""></div>
-          <div class="w-25 mb-2 me-2"><img class="img-fluid border border-3 border-white" src="/imgs/gallery-04.png" alt=""></div>
-          <div class="w-25 mb-2 me-2"><img class="img-fluid border border-3 border-white" src="/imgs/gallery-05.jpg" alt=""></div>
-          <div class="w-25 mb-2 me-2"><img class="img-fluid border border-3 border-white" src="/imgs/gallery-06.png" alt=""></div>
+          <div class="w-25 mb-2 me-2"><img class="img-fluid border border-3 border-white" src="/HTML-CSS1/imgs/gallery-01.png" alt=""></div>
+          <div class="w-25 mb-2 me-2"><img class="img-fluid border border-3 border-white" src="/HTML-CSS1/imgs/gallery-02.png" alt=""></div>
+          <div class="w-25 mb-2 me-2"><img class="img-fluid border border-3 border-white" src="/HTML-CSS1/imgs/gallery-03.jpg" alt=""></div>
+          <div class="w-25 mb-2 me-2"><img class="img-fluid border border-3 border-white" src="/HTML-CSS1/imgs/gallery-04.png" alt=""></div>
+          <div class="w-25 mb-2 me-2"><img class="img-fluid border border-3 border-white" src="/HTML-CSS1/imgs/gallery-05.jpg" alt=""></div>
+          <div class="w-25 mb-2 me-2"><img class="img-fluid border border-3 border-white" src="/HTML-CSS1/imgs/gallery-06.png" alt=""></div>
         </div>
       </div>
       <!-- end container -->
